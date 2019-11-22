@@ -4,4 +4,4 @@ echo "#####################"
 ls -al
 echo "#####################"
 cd /app
-./proxy http -t wss -p “0.0.0.0:8443” –parent-ws-method=“chacha20-ietf-poly1305” –parent-ws-password=“123456@proxy”
+./proxy http -t wss -p “0.0.0.0:8443” --parent-ws-method=“chacha20-ietf-poly1305” --parent-ws-password=“123456@proxy”
